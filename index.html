@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>jaiii💗</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="bubbles">
+    <span style="--x:5; --s:1; --d:0;"></span>
+    <span style="--x:15; --s:1.4; --d:4;"></span>
+    <span style="--x:25; --s:0.8; --d:2;"></span>
+    <span style="--x:35; --s:1.6; --d:6;"></span>
+    <span style="--x:45; --s:1; --d:1;"></span>
+    <span style="--x:55; --s:1.3; --d:5;"></span>
+    <span style="--x:65; --s:0.9; --d:3;"></span>
+    <span style="--x:75; --s:1.5; --d:7;"></span>
+    <span style="--x:85; --s:1; --d:2;"></span>
+    <span style="--x:95; --s:1.2; --d:6;"></span>
+</div>
+
+<main class="app">
+
+
+    <section class="screen active" id="start">
+        <h1>Te tengo una sorpresa 💗</h1>
+        <button onclick="nextScreen('game')">Continuar</button>
+    </section>
+
+    <section class="screen" id="game">
+        <p>¿Quieres ver?</p>
+        <button id="trickBtn">Sí</button>
+    </section>
+
+
+    <section class="screen" id="win">
+        <h2>Si pudiste jiji 
+        </h2>
+        <button onclick="nextScreen('letter')">Continuar</button>
+    </section>
+
+
+    <section class="screen" id="letter">
+        <div class="letter-box">
+            <h3>Para ti </h3>
+
+            <div class="letter-text">
+                <p>
+                    De todo corazon
+                    <br><br>
+                        Majo, la verdad es que me tienes flechado. Tal vez no hubo una conexión inmediata cuando 
+                        nos vimos por primera vez, pero mientras más te fui conociendo más me di cuenta de lo especial 
+                        que eres. Tu forma de ser, tu sonrisa, tus ojos y esa manera tan dulce que tienes de actuar
+                         hicieron que poco a poco me enamorara sin darme cuenta. Me encanta pasar tiempo contigo, 
+                         hablar contigo, reír contigo, porque contigo todo se siente fácil y bonito. La verdad no
+                          te cambiaría por nada en el mundo, porque eres una persona demasiado especial para mí. No me imagino
+                           perderte ni dejar de estar contigo, porque desde que llegaste te volviste parte
+                            importante de mi vida y de mi felicidad. Me haces sentir cosas que nunca
+                             había sentido y eso es algo que valoro demasiado. 
+                             También me sorprende lo parecidos que somos en muchas cosas y lo bien que nos llevamos, 
+                             como si todo se hubiera dado poco a poco para que termináramos juntos. Obviamente van a existir
+                              momentos difíciles, problemas o días malos, pero siento que si estamos juntos podemos salir 
+                              adelante y seguir creciendo como pareja. Sé que tengo mis defectos, mis errores y mis locuras, 
+                              pero aun así me aceptas tal como soy, y eso para mí vale muchísimo. A veces todavía me sorprende
+                               pensar que eres mi novia y que estás conmigo, y me pongo a pensar qué fue lo que viste en mí o 
+                               cómo llegué a gustarte, pero aunque no tenga una respuesta clara, sé que quiero seguir cuidando
+                                lo que tenemos. Quiero seguir viviendo muchas cosas contigo, crear recuerdos, cumplir metas 
+                                juntos y construir un futuro bonito. Me gusta imaginar todo lo que podemos lograr si seguimos
+                                 caminando juntos, apoyándonos siempre. Eres suficiente, eres única, eres hermosa y tienes 
+                                 algo que te hace diferente a todas las demás. Para mí eres demasiado importante, Majo, y 
+                                 de verdad agradezco que estés en mi vida. Te amo 💞
+                    <br><br>
+                    Gracias por estar junto a mi majito 💗
+                </p>
+            </div>
+
+            <button onclick="nextScreen('video')">Continuar</button>
+        </div>
+    </section>
+
+ 
+    <section class="screen" id="video">
+        <h2>Te dedico esta cancion :3 </h2>
+        <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/EUntKx-tfjo"
+                allowfullscreen>
+            </iframe>
+        </div>
+        <p>Gracias por leer todo esto, feliz san valentín :3 </p>
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
